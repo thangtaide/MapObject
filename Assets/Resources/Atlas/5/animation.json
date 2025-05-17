@@ -1,0 +1,128 @@
+{
+  "HasFallingAnimation": true,
+  "HasLandedAnimation": true,
+  "Directions": [
+    {
+      "States": [
+        {
+          "Duration": 1.22222221,
+          "Frames": [
+            {
+              "SpriteName": "0_0",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_1",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_2",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_3",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_4",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_5",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_6",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_7",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_8",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_9",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_10",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            }
+          ]
+        },
+        {
+          "Duration": 0.7777778,
+          "Frames": [
+            {
+              "SpriteName": "0_11",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_12",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_13",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_14",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_15",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_16",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            },
+            {
+              "SpriteName": "0_17",
+              "OffSetX": 0.0,
+              "OffSetY": 0.0,
+              "SortOrder": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.32f1
+CRC: 1508716548
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 506930a282e99b62054e3bc009a92644
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 44ecfa74d0d034c7ebbe59061eb7679b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c932a148e9d25c70933bebd594eca526
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/Atlas/1/animation.json
+- Assets/Resources/Atlas/1/atlas.spriteatlas
+Dependencies: []

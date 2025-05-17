@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b62dc14393a469941bf04e3d641501e8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - c66140b1d8444e84e8ca51ca82b89ca2: 21300000
+    - 11b04542526793f4ca904e32a2d4c32f: 21300000
+    - 49562cc3ad6b1c148929dde93f3016ca: 21300000
+    - 603e29c5c6b21294980d467a3327d073: 21300000
+    - 1a6cce9bfba06a844906d860a9474d91: 21300000
+    - 46c196cbe638ce04cb3cfd53ca8c9a34: 21300000
+    - bf31733ef6d57dc41840b231761464a2: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c66140b1d8444e84e8ca51ca82b89ca2, type: 3}
+  - {fileID: 21300000, guid: 11b04542526793f4ca904e32a2d4c32f, type: 3}
+  - {fileID: 21300000, guid: 49562cc3ad6b1c148929dde93f3016ca, type: 3}
+  - {fileID: 21300000, guid: 603e29c5c6b21294980d467a3327d073, type: 3}
+  - {fileID: 21300000, guid: 1a6cce9bfba06a844906d860a9474d91, type: 3}
+  - {fileID: 21300000, guid: 46c196cbe638ce04cb3cfd53ca8c9a34, type: 3}
+  - {fileID: 21300000, guid: bf31733ef6d57dc41840b231761464a2, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 0_1
+  - 0_0
+  - 0_2
+  - 0_4
+  - 0_3
+  - 0_6
+  - 0_5
+  m_RenderDataMap: {}
+  m_Tag: atlas
+  m_IsVariant: 0
