@@ -102,24 +102,34 @@ public static class WriteTextAssetAnim
         }
         return basicAnimationData;
     }
-    
-    public static void WriteToJsonFile<T>(T data, string filePath)
+
+    public static void WriteToJsonFile<T>(
+        T data,
+        string filePath,
+        bool needAddBundle = true)
     {
-        string folderName = new DirectoryInfo(filePath).Name;
         string json = JsonConvert.SerializeObject(data, Formatting.Indented);
-        
-        string finalPath = Path.Combine(filePath, "animation.json");
-        File.WriteAllText(finalPath, json);
-        
-        AssetDatabase.Refresh();
-        
-        string unityRelativePath = finalPath.Replace(Application.dataPath, "Assets").Replace("\\", "/");
-        
-        AssetImporter importer = AssetImporter.GetAtPath(unityRelativePath);
-        if (importer != null)
+
+        string finalPath = filePath;
+        if (needAddBundle)
         {
-            importer.assetBundleName = $"mapobject_{folderName}";
-            Debug.Log($"Assigned Text asset bundle name: mapobject_{folderName}");
+            finalPath = Path.Combine(filePath, "animation.json");
+        }
+
+        File.WriteAllText(finalPath, json);
+
+        AssetDatabase.Refresh();
+        if (needAddBundle)
+        {
+            string folderName = new DirectoryInfo(filePath).Name;
+            string unityRelativePath = finalPath.Replace(Application.dataPath, "Assets").Replace("\\", "/");
+
+            AssetImporter importer = AssetImporter.GetAtPath(unityRelativePath);
+            if (importer != null)
+            {
+                importer.assetBundleName = $"mapobject_{folderName}";
+                Debug.Log($"Assigned Text asset bundle name: mapobject_{folderName}");
+            }
         }
 
         AssetDatabase.SaveAssets();

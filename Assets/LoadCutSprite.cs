@@ -14,7 +14,6 @@ public enum PlatformTarget
 public class LoadCutSprite : MonoBehaviour
 {
     [SerializeField] private Image _image;
-    [SerializeField] private float _updateInterval = 0.1f;
     
     private const string TEXT_ASSET_PATH = "textobjdropres/";
     private const string TEXTURE_2D_ASSET_PATH = "Sprites/";
@@ -141,7 +140,6 @@ public class LoadCutSprite : MonoBehaviour
             SpriteAtlasGenerator.CreateSpriteAtlas(GetAssetPath(atlasPath), GetAssetPath(spritePath));
             MapObjectAnimationData mapObjectAnimationData = WriteTextAssetAnim.WriteToAnimationData(textureData, dropState);
             WriteTextAssetAnim.WriteToJsonFile(mapObjectAnimationData, atlasPath);
-            
         }
     }
     
@@ -272,13 +270,15 @@ public class LoadCutSprite : MonoBehaviour
                 
 #if UNITY_EDITOR
                 AssetDatabase.Refresh();
-                AssetDatabase.ImportAsset(assetRelativePath, ImportAssetOptions.ForceUpdate);
-                
                 string assetPath = "Assets" + assetRelativePath.Replace(Application.dataPath, "").Replace("\\", "/");
+                
+                AssetDatabase.ImportAsset(assetPath, ImportAssetOptions.ForceUpdate);
+                
                 TextureImporter importer = AssetImporter.GetAtPath(assetPath) as TextureImporter;
                 if (importer != null)
                 {
                     importer.textureType = TextureImporterType.Sprite;
+                    importer.textureCompression = TextureImporterCompression.Uncompressed;
                     importer.spriteImportMode = SpriteImportMode.Single;
                     importer.spritePixelsPerUnit = 100;
                     importer.mipmapEnabled = false;
