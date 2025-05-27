@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "FileName": "mapobject_0",
+      "OriginalFilePath": "Assets/Resources/Atlas/Android",
+      "TargetFilePath": "mapobjects",
+      "IsStreamingAsset": false
+    },
+    {
+      "FileName": "mapobject_1",
+      "OriginalFilePath": "Assets/Resources/Atlas/Android",
+      "TargetFilePath": "mapobjects",
+      "IsStreamingAsset": false
+    },
+    {
+      "FileName": "mapobject_2",
+      "OriginalFilePath": "Assets/Resources/Atlas/Android",
+      "TargetFilePath": "mapobjects",
+      "IsStreamingAsset": false
+    },
+    {
+      "FileName": "mapobject_3",
+      "OriginalFilePath": "Assets/Resources/Atlas/Android",
+      "TargetFilePath": "mapobjects",
+      "IsStreamingAsset": false
+    },
+    {
+      "FileName": "mapobject_4",
+      "OriginalFilePath": "Assets/Resources/Atlas/Android",
+      "TargetFilePath": "mapobjects",
+      "IsStreamingAsset": false
+    },
+    {
+      "FileName": "mapobject_5",
+      "OriginalFilePath": "Assets/Resources/Atlas/Android",
+      "TargetFilePath": "mapobjects",
+      "IsStreamingAsset": false
+    },
+    {
+      "FileName": "mapobject_6",
+      "OriginalFilePath": "Assets/Resources/Atlas/Android",
+      "TargetFilePath": "mapobjects",
+      "IsStreamingAsset": false
+    },
+    {
+      "FileName": "mapobject_7",
+      "OriginalFilePath": "Assets/Resources/Atlas/Android",
+      "TargetFilePath": "mapobjects",
+      "IsStreamingAsset": false
+    },
+    {
+      "FileName": "mapobject_8",
+      "OriginalFilePath": "Assets/Resources/Atlas/Android",
+      "TargetFilePath": "mapobjects",
+      "IsStreamingAsset": false
+    }
+  ],
+  "FileZips": [
+    {
+      "FileName": "mapobject_pack.zip",
+      "OriginalFilePath": "mapobjects",
+      "TargetFilePath": "mapobjects"
+    }
+  ]
+}
