@@ -1010,7 +1010,7 @@
       "SellPrice": 0,
       "HaveStack": true,
       "MaxStack": 50,
-      "NameItemProcessor": "",
+      "NameItemProcessor": "Sabo.JX.GameLogic.World.Item.OnBoardBattlefieldNormalRewardChest, Sabo.JX.GameLogic",
       "ItemCategoryType": 0,
       "MapObjectId": 0
     },
@@ -1036,7 +1036,7 @@
       "SellPrice": 0,
       "HaveStack": true,
       "MaxStack": 50,
-      "NameItemProcessor": "",
+      "NameItemProcessor": "Sabo.JX.GameLogic.World.Item.OnBoardBattlefieldSpecialRewardChest, Sabo.JX.GameLogic",
       "ItemCategoryType": 0,
       "MapObjectId": 0
     },
@@ -2604,7 +2604,7 @@
       "DefineId": 201,
       "ItemRarity": 0,
       "ItemType": 2,
-      "IconId": 67,
+      "IconId": 73,
       "CanSell": true,
       "SellPrice": 0,
       "HaveStack": true,
@@ -2612,6 +2612,58 @@
       "NameItemProcessor": "",
       "ItemCategoryType": 0,
       "MapObjectId": 0
+    },
+    {
+      "DefineId": 203,
+      "ItemRarity": 0,
+      "ItemType": 0,
+      "IconId": 73,
+      "CanSell": false,
+      "SellPrice": 0,
+      "HaveStack": false,
+      "MaxStack": 1,
+      "NameItemProcessor": "Sabo.JX.GameLogic.World.Item.SmallFruitGlory, Sabo.JX.GameLogic",
+      "ItemCategoryType": 0,
+      "MapObjectId": 0
+    },
+    {
+      "DefineId": 204,
+      "ItemRarity": 0,
+      "ItemType": 0,
+      "IconId": 73,
+      "CanSell": true,
+      "SellPrice": 0,
+      "HaveStack": false,
+      "MaxStack": 1,
+      "NameItemProcessor": "Sabo.JX.GameLogic.World.Item.MediumFruitGlory, Sabo.JX.GameLogic",
+      "ItemCategoryType": 0,
+      "MapObjectId": 0
+    },
+    {
+      "DefineId": 205,
+      "ItemRarity": 0,
+      "ItemType": 0,
+      "IconId": 73,
+      "CanSell": true,
+      "SellPrice": 0,
+      "HaveStack": false,
+      "MaxStack": 1,
+      "NameItemProcessor": "Sabo.JX.GameLogic.World.Item.MediumSpecialFruitGlory, Sabo.JX.GameLogic",
+      "ItemCategoryType": 0,
+      "MapObjectId": 0
+    },
+    {
+      "DefineId": 206,
+      "ItemRarity": 0,
+      "ItemType": 0,
+      "IconId": 74,
+      "CanSell": true,
+      "SellPrice": 0,
+      "HaveStack": false,
+      "MaxStack": 1,
+      "NameItemProcessor": "Sabo.JX.GameLogic.World.Item.GoldenFruitGlory, Sabo.JX.GameLogic",
+      "ItemCategoryType": 0,
+      "MapObjectId": 8
     }
   ]
 }
