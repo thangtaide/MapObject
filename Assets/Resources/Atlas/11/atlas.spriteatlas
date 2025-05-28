@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e2ef7c0c5b9185c4bacec63a08b2e52a, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 39e380322fa96d44982bd6f1651a3e7b: 21300000
+    - eebc9ee21ab32a44694391591da7a013: 21300000
+    - 3426d973e2a738f4e894f3aec00f6c1e: 21300000
+    - 56f4d7c3b6af4a24782764dfb828fc4c: 21300000
+    - c0e47196ac1b9ae4ca08b3ac30c73f0f: 21300000
+    - cacc334b51d242f40b622db9833b8f9b: 21300000
+    - df3807ac3e1bd064498fb377c5583e7b: 21300000
+    - e7252aed4c58f9b4e84e4a6ec13aba2b: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 39e380322fa96d44982bd6f1651a3e7b, type: 3}
+  - {fileID: 21300000, guid: eebc9ee21ab32a44694391591da7a013, type: 3}
+  - {fileID: 21300000, guid: 3426d973e2a738f4e894f3aec00f6c1e, type: 3}
+  - {fileID: 21300000, guid: 56f4d7c3b6af4a24782764dfb828fc4c, type: 3}
+  - {fileID: 21300000, guid: c0e47196ac1b9ae4ca08b3ac30c73f0f, type: 3}
+  - {fileID: 21300000, guid: cacc334b51d242f40b622db9833b8f9b, type: 3}
+  - {fileID: 21300000, guid: df3807ac3e1bd064498fb377c5583e7b, type: 3}
+  - {fileID: 21300000, guid: e7252aed4c58f9b4e84e4a6ec13aba2b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - NPC189_Stand_S_0
+  - NPC189_Stand_S_2
+  - NPC189_Stand_S_5
+  - NPC189_Stand_S_1
+  - NPC189_Stand_S_4
+  - NPC189_Stand_S_7
+  - NPC189_Stand_S_3
+  - NPC189_Stand_S_6
+  m_RenderDataMap: {}
+  m_Tag: atlas
+  m_IsVariant: 0

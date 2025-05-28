@@ -2637,7 +2637,7 @@
       "MaxStack": 1,
       "NameItemProcessor": "Sabo.JX.GameLogic.World.Item.MediumFruitGlory, Sabo.JX.GameLogic",
       "ItemCategoryType": 0,
-      "MapObjectId": 0
+      "MapObjectId": 11
     },
     {
       "DefineId": 205,
@@ -2663,7 +2663,7 @@
       "MaxStack": 1,
       "NameItemProcessor": "Sabo.JX.GameLogic.World.Item.GoldenFruitGlory, Sabo.JX.GameLogic",
       "ItemCategoryType": 0,
-      "MapObjectId": 8
+      "MapObjectId": 12
     }
   ]
 }
